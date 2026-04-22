@@ -1,0 +1,15 @@
+// ltl-fs-toy/main.ltl
+//
+// Toy in-memory FAT-like filesystem with mkdir / ls / cat.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-fs-toy v0.1.0")
+    io::println("Toy in-memory FAT-like filesystem with mkdir / ls / cat.")
+    0
+}
