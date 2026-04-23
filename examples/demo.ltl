@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_fs_toy
+
+import std::io
+use ltl_fs_toy as lib
+
+fn main() {
+    io::println("ltl_fs_toy demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
